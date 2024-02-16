@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Aihome from './components/Aihome';
+import Blockchain from './components/Blockchain';
+import Myfooter from './components/Myfooter';
+import Myheader from './components/Myheader';
+import Nexai from './components/Nexai';
+import Roadmap from './components/Roadmap';
+import Slidersection from './components/Slidesection';
+import Talkus from './components/Talkus';
+import Uniquefeatures from './components/Uniquefeatures';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='bg-[#040505] overfl ow-hidden'>
+        <Myheader />
+        <Aihome />
+        <Uniquefeatures />
+        <Blockchain />
+        <Slidersection />
+        <Nexai />
+        <Roadmap />
+        <Talkus />
+        <Myfooter />
+      </div>
+    </>
   );
 }
 
