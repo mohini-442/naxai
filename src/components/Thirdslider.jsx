@@ -30,28 +30,34 @@ const Thirdslider = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 4.3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1000,
         speed: 500,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1194,
                 settings: {
-                    slidesToShow: 2.1,
+                    slidesToShow: 3.1,
                 }
             },
             {
-                breakpoint: 800,
+                breakpoint: 1024,
                 settings: {
-                    slidesToShow: 1.8,
+                    slidesToShow: 2.6,
+                }
+            },
+            {
+                breakpoint: 870,
+                settings: {
+                    slidesToShow: 2.2,
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 1.4,
+                    slidesToShow: 1.6,
                 }
             },
         ]

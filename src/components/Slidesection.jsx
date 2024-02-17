@@ -26,22 +26,28 @@ const Slidersection = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 4.3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1000,
         speed: 500,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1194,
                 settings: {
-                    slidesToShow: 2.1,
+                    slidesToShow: 3.1,
                 }
             },
             {
-                breakpoint: 800,
+                breakpoint: 1024,
                 settings: {
-                    slidesToShow: 1.8,
+                    slidesToShow: 2.6,
+                }
+            },
+            {
+                breakpoint: 870,
+                settings: {
+                    slidesToShow: 2.2,
                 }
             },
             {
@@ -61,7 +67,8 @@ const Slidersection = () => {
 
     return (
         <>
-            <div className='md:py-44 py-24 overflow-hidden'>
+            <div className='md:py-44 py-24 overflow-hidden' data-aos="fade-up"
+                data-aos-duration="3000">
                 <div className='px-3'>
                     <h2 className='ff-recharge text-[32px] md:text-[40px] font-bold text-[#02CDCF] text-center leading-[36px] md:leading-[50px]'>NexAi does all this. And more.</h2>
                     <p className='font-poppins text-[16px] font-normal text-[#B4B4B4] max-w-[912px] mx-auto text-center pt-2'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
