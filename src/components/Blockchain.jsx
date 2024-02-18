@@ -79,7 +79,7 @@ const Blockchain = () => {
     return (
         <>
             <div className='overflow-hidden relative z-[2]'>
-                <div className='md:py-44 py-12 max-w-[1320px] mx-auto Blockchain'>
+                <div className='md:pt-44 md:pb-12 py-12 max-w-[1320px] mx-auto Blockchain'>
                     <h2 className='ff-recharge text-[32px] md:text-[40px] font-bold text-[#02CDCF] text-center' data-aos="fade-up"
                         data-aos-duration="3000">Blockchain & AI technology</h2>
                     <p className='font-poppins text-[16px] font-normal text-[#B4B4B4] max-w-[997px] mx-auto text-center pt-2' data-aos="fade-up"
