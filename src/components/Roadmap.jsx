@@ -1,5 +1,5 @@
 import React from 'react'
-import roadmap from '../assets/images/utlity.png'
+import roadmap from '../assets/images/roadmap.png'
 import frame2 from '../assets/images/frame2.png'
 
 const Roadmap = () => {
@@ -10,9 +10,10 @@ const Roadmap = () => {
                     data-aos-duration="3000">
                     <h2 className='ff-recharge font-bold text-[32px] md:text-[40px] text-[#02CDCF] text-center '>NexAI Token & utility</h2>
                     <div className='flex flex-wrap flex-row -mx-3 pt-12'>
-                        <div className='lg:w-1/2 px-3'>
-                            {/* <div className='bg-[#02CDCF] opacity-[20%] w-[571px] h-[511px]'> */}
-                            <img src={roadmap} alt="roadmap" className='bg-black mix-blend-multiply' />
+                        <div className='lg:w-1/2 px-3 '>
+                                <div className='relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-[#02CDCF] mix-blend-hue after:mix-blend-hue'>
+                                    <img src={roadmap} alt="roadmap" className='mix-blend-hue' />
+                                </div>
                         </div>
                         <div className='lg:w-1/2 px-3 mx-auto pt-12 relative gap-5 '>
                             <div className='h-[512px] overflow-y-scroll'>

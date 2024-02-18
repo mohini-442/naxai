@@ -33,7 +33,9 @@ const Secondslider = () => {
         slidesToShow: 4,
         slidesToScroll: -1,
         autoplay: true,
-        autoplaySpeed: 1000,
+        pauseonhover: false,
+        pauseonfocus: false,
+        autoplaySpeed: 2000,
         speed: 500,
         responsive: [
             {

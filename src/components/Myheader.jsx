@@ -10,7 +10,7 @@ function Myheader() {
         document.body.classList.remove("max-lg:overflow-hidden");
     }
     return (
-        <div className='bg-[url(./assets/images/bgheader.webp)] bg-center bg-no-repeat bg-cover md:bg-size h-[745px] max-w-[1440px] mb-5 mx-auto bg-black'>
+        <div className='bg-[url(./assets/images/bgheader.png)] bg-center bg-no-repeat bg-cover md:bg-size mt-3 h-[778px] max-w-[1440px] mb-5 mx-auto bg-black'>
             <nav className="max-w-[1240px] px-3 mx-auto pt-4">
                 <div className="flex justify-end py-3 gap-28 ">
                     <ul
@@ -47,7 +47,7 @@ function Myheader() {
                             </a>
                         </li>
                     </ul>
-                    <Button btn='Sign up' />
+                    <Button name='mt-4' btn='Sign up' />
                     
                     <div
                         onClick={() => setNav(!nav)}
