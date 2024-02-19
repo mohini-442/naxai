@@ -1,18 +1,18 @@
 import React from 'react'
-import roadmap from '../assets/images/roadmap.png'
+import roadmap from '../assets/images/aihandimg.webp'
 import frame2 from '../assets/images/frame2.png'
 
 const Roadmap = () => {
     return (
         <>
-            <div className='relative z-[2] overflow-hidden'>
+            <div className='relative z-[2] overflow-hidden' id='#roadmap'>
                 <div className='py-20 max-w-[1320px] mx-auto px-3' data-aos="fade-up"
                     data-aos-duration="3000">
                     <h2 className='ff-recharge font-bold text-[30px] md:text-[40px] text-[#02CDCF] text-center leading-[36px] md:leading-[50px]'>NexAI Token & utility</h2>
                     <div className='flex flex-wrap flex-row -mx-3 pt-12'>
-                        <div className='lg:w-1/2 px-3 w-full flex justify-center'>
+                        <div className='lg:w-1/2 px-3 w-full flex justify-center mix-blend-lighten '>
                             {/* <div className='relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-[#02CDCF] before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-[#02CDCF] z-[-1] mix-blend-hue after:mix-blend-hue'> */}
-                                    <img src={roadmap} alt="roadmap" className='mix-blend-hue' />
+                                    <img src={roadmap} alt="roadmap" className='w-[80%] mix-blend-overlay' />
                                 {/* </div> */}
                         </div>
                         <div className='lg:w-1/2 w-full px-3 mx-auto pt-12 relative gap-5 '>
@@ -77,7 +77,7 @@ const Roadmap = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[228px] h-[128px] bg-[#02CDCF] blur-[144px] absolute top-[22%] left-[-12%] z-[-1] hidden md:block'></div>
+                <div className='w-[228px] h-[128px] bg-[#02CDCF] blur-[144px] absolute top-[22%] left-[-12%] hidden md:block'></div>
                 <img src={frame2} alt="frame2" className='absolute top-[2%] right-0 z-[-1] opacity-[20%] hidden md:block' />
                 <div className='w-[228px] h-[228px] bg-[#02CDCF] blur-[144px] absolute top-[44%] right-[-12%] z-[-1] hidden md:block'></div>
             </div>

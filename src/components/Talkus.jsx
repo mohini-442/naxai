@@ -5,7 +5,7 @@ import frame2 from '../assets/images/frame2.png'
 const Talkus = () => {
     return (
         <>
-            <div className='relative z-[2]'>
+            <div className='relative z-[2]' id='talkus'>
                 <div className='max-w-[1320px] px-3 mx-auto pt-12 md:pt-28 pb-24 md:pb-0'>
                     <div className='flex flex-wrap flex-row -mx-3'>
                         <div className='lg:w-1/2 w-full px-3' data-aos="fade-right">

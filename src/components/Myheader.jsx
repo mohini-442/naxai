@@ -17,22 +17,22 @@ function Myheader() {
                         className={`${nav ? "left-[-100%]" : "left-0"}
             max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:z-[7] bg-black max-lg:transition-all max-lg:ease-linear max-lg:duration-300 max-lg:min-h-screen max-lg:flex-col max-lg:justify-center flex gap-12 items-center`}
                     >
-                        <li onClick={() => setNav(!nav)}><a href=""
+                        <li onClick={() => setNav(!nav)}><a href="#home"
                             className="text-white relative after:absolute after:w-0 after:h-[1px] hover:after:absolute after:bottom-[-5px] hover:after:w-full hover:text-[#02CDCF] after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF] font-poppins font-normal text-[16px]" >Home
                         </a>
                         </li>
-                        <li onClick={() => setNav(!nav)}><a href="" className="text-white  relative after:absolute after:w-0 after:h-[1px] hover:after:absolute hover:text-[#02CDCF] after:bottom-[-5px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF]  text-base font-normal font-poppins"  >Marketplace
+                        <li onClick={() => setNav(!nav)}><a href="#marketplace" className="text-white  relative after:absolute after:w-0 after:h-[1px] hover:after:absolute hover:text-[#02CDCF] after:bottom-[-5px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF]  text-base font-normal font-poppins"  >Marketplace
                         </a>
                         </li>
                         <li onClick={() => setNav(!nav)}><a
-                            href=""
+                            href="#nexai"
                             className="text-white  relative after:absolute after:w-0 after:h-[1px] hover:after:absolute after:bottom-[-5px] hover:after:w-full hover:text-[#02CDCF] after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF] text-base font-normal font-poppins"
                         > About
                         </a>
                         </li>
                         <li onClick={() => setNav(!nav)}>
                             <a
-                                href=""
+                                href="#roadmap"
                                 className="text-white  relative after:absolute after:w-0 after:h-[1px] hover:after:absolute after:bottom-[-5px] hover:after:w-full hover:text-[#02CDCF] after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF]  text-base font-normal font-poppins"
                             >
                                 NexChat
@@ -40,7 +40,7 @@ function Myheader() {
                         </li>
                         <li onClick={() => setNav(!nav)}>
                             <a
-                                href=""
+                                href="#talkus"
                                 className="text-white  relative after:absolute after:w-0 after:h-[1px] hover:after:absolute after:bottom-[-5px] hover:after:w-full hover:text-[#02CDCF] after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF]  text-base font-normal font-poppins"
                             >
                                 Tokens

@@ -4,7 +4,7 @@ import Button from './Button'
 
 const Aihome = () => {
     return (
-        <div className='relative z-[2]'>
+        <div className='relative z-[2]' id='home'>
             <div className='max-w-[1140px] mx-auto px-3 py-16 lg:py-44'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='lg:w-1/2 w-full px-3 relative z-[2]' data-aos="fade-up"
@@ -14,7 +14,7 @@ const Aihome = () => {
                     </div>
                     <div className='lg:w-1/2 w-full px-3 mt-4 lg:pl-10 pt-12 lg:pt-0 flex items-center lg:items-start flex-col' data-aos="fade-up"
                         data-aos-duration="3000">
-                        <h2 className='md:text-[40px] text-[30px] font-bold text-[#02CDCF] ff-recharge leading-[38px] md:leading-[50px]' data-aos="fade-up"
+                        <h2 className='md:text-[40px] text-[30px] font-bold text-[#02CDCF] ff-recharge leading-[38px] md:leading-[50px] text-center lg:text-start' data-aos="fade-up"
                             data-aos-duration="3000">Ai-Powered Home Assistant</h2>
                         <p className='font-poppins text-[14px] md:text-[16px] font-normal text-[#B4B9B9] pt-3 text-center lg:text-start' data-aos="fade-up"
                             data-aos-duration="3000">Nexai is an advanced AI-powered home assistant that brings the future to your fingertips. With its ability to engage in natural, fluent conversations in over 15 languages,</p>
