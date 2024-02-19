@@ -6,14 +6,14 @@ const Talkus = () => {
     return (
         <>
             <div className='relative z-[2]'>
-                <div className='max-w-[1320px] px-3 mx-auto pt-16 md:pt-28 pb-12'>
+                <div className='max-w-[1320px] px-3 mx-auto pt-12 md:pt-28 pb-24 md:pb-0'>
                     <div className='flex flex-wrap flex-row -mx-3'>
-                        <div className='md:w-1/2 w-full px-3' data-aos="fade-right">
-                            <h2 className='font-bold text-[32px] md:text-[40px] ff-recharge text-white leading-[52px] text-center md:text-start'>Ready to get started
+                        <div className='lg:w-1/2 w-full px-3' data-aos="fade-right">
+                            <h2 className='font-bold text-[32px] sm:max-w-[600px] mx-auto md:text-[40px] ff-recharge text-white leading-[40px] md:leading-[52px] text-center lg:text-start'>Ready to get started
                                 <span className='text-[#02CDCF]'> Talk to us Today </span></h2>
                         </div>
-                        <div className='md:w-1/2 w-full px-3 flex md:justify-end justify-center pt-9 md:pt-0 items-center' data-aos="fade-left">
-                            <Button name='h-[58px]' btn='Get Started' />
+                        <div className='lg:w-1/2 w-full px-3 flex lg:justify-end justify-center pt-5 lg:pt-0 items-center' data-aos="fade-left">
+                            <Button name=' md:!h-[58px]' btn='Get Started' />
                         </div>
                     </div>
                 </div>

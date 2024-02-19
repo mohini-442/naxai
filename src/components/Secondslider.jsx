@@ -59,7 +59,19 @@ const Secondslider = () => {
             {
                 breakpoint: 600,
                 settings: {
+                    slidesToShow: 2.1,
+                }
+            },
+            {
+                breakpoint: 500,
+                settings: {
                     slidesToShow: 1.6,
+                }
+            },
+            {
+                breakpoint: 400,
+                settings: {
+                    slidesToShow: 1.4,
                 }
             },
         ]

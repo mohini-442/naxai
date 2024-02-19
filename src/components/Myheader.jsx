@@ -10,8 +10,8 @@ function Myheader() {
         document.body.classList.remove("max-lg:overflow-hidden");
     }
     return (
-        <div className='bg-[url(./assets/images/bgheader.png)] bg-center bg-no-repeat bg-cover md:bg-size mt-3 h-[778px] max-w-[1440px] mb-5 mx-auto bg-black'>
-            <nav className="max-w-[1240px] px-3 mx-auto pt-4">
+        <div className='bg-[url(./assets/images/bgheader.png)] bg-center bg-no-repeat bg-cover md:bg-size md:mt-3 h-[778px] max-w-[1440px] mb-5 mx-auto bg-black'>
+            <nav className="max-w-[1240px] px-3 mx-auto md:pt-4">
                 <div className="flex justify-end py-3 gap-28 ">
                     <ul
                         className={`${nav ? "left-[-100%]" : "left-0"}
@@ -51,7 +51,7 @@ function Myheader() {
                     
                     <div
                         onClick={() => setNav(!nav)}
-                        className="lg:hidden w-[27px] h-[21px] mr-[17px] relative z-[7] flex justify-between flex-col mt-4"
+                        className="lg:hidden w-[27px] h-[21px] mr-[17px] relative z-[7] flex justify-between flex-col mt-8"
                     >
                         <span
                             className={`${nav ? "" : "rotate-[50deg] translate-y-[15px]"

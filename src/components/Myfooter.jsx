@@ -9,7 +9,7 @@ const Myfooter = () => {
                         <div className='max-w-[1320px] mx-auto px-3 md:pt-44 pb-5'>
                             <div className='flex flex-row flex-wrap -mx-3 '>
                                 <div className='lg:w-8/12 w-full px-3 pt-9' data-aos="fade-right">
-                                    <p className='ff-recharge font-bold text-[16px] text-[#B4B4B4] max-w-[356px]'>Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</p>
+                                    <p className='ff-recharge font-bold text-[14px] md:text-[16px] text-[#B4B4B4] max-w-[356px]'>Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</p>
                                     <div className='flex items-center gap-3 pt-4'>
                                         <span className='cursor-pointer duration-[0.5s] hover:translate-y-[-10%]'>
                                             <a href="https://www.instagram.com/accounts/login/">
@@ -36,10 +36,10 @@ const Myfooter = () => {
                                         </span>
                                     </div>
                                 </div>
-                                <div className='lg:w-4/12 w-full px-3 pt-9 lg:pt-0' data-aos="fade-left">
+                                <div className='lg:w-4/12 w-full px-3 pt-12 lg:pt-0' data-aos="fade-left">
                                     <div className='flex flex-wrap flex-row -mx-3'>
                                         <div className='w-1/2 px-3'>
-                                            <p className='ff-recharge font-bold text-[18px] text-white'>Quick links</p>
+                                            <p className='ff-recharge font-bold text-[16px] md:text-[18px] text-white'>Quick links</p>
                                             <ul>
                                                 <li className='pt-4'><a href="" className='ff-recharge font-bold text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>Home</a></li>
                                                 <li className='pt-4'><a href="" className='ff-recharge font-bold text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>Features</a></li>
@@ -50,19 +50,19 @@ const Myfooter = () => {
                                             </ul>
                                         </div>
                                         <div className='w-1/2 px-3'>
-                                            <p className='ff-recharge font-bold text-[18px] text-white'>Information's</p>
+                                            <p className='ff-recharge font-bold text-[16px] md:text-[18px] text-white'>Information's</p>
                                             <ul>
-                                                <li className='pt-4'><a href="" className='ff-recharge font-bold text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>Contact</a></li>
-                                                <li className='pt-4'><a href="" className='ff-recharge font-bold text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>Phone</a></li>
-                                                <li className='pt-4'><a href="" className='ff-recharge font-bold text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>terms</a></li>
-                                                <li className='pt-4'><a href="" className='ff-recharge font-bold text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>Privacy</a></li>
+                                                <li className='pt-4'><a href="" className='ff-recharge font-bold text-[14px] md:text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>Contact</a></li>
+                                                <li className='pt-4'><a href="" className='ff-recharge font-bold text-[14px] md:text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>Phone</a></li>
+                                                <li className='pt-4'><a href="" className='ff-recharge font-bold text-[14px] md:text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>terms</a></li>
+                                                <li className='pt-4'><a href="" className='ff-recharge font-bold text-[14px] md:text-[16px] text-[#B6B6B9] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#B6B6B9]'>Privacy</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className='w-full h-[2px] bg-[#6B7070] mt-8'></div>
-                            <p className='ff-recharge font-bold text-[16px] text-[#B4B4B6] text-center pt-5'>@Copyright.nexai</p>
+                            <p className='ff-recharge font-bold text-[14px] md:text-[16px] text-[#B4B4B6] text-center pt-5'>@Copyright.nexai</p>
                         </div>
                         <div className='w-[128px] h-[128px] bg-[#02CDCF] blur-[114px] absolute top-[32%] right-[-8%] z-[-1] hidden md:block'></div>
                     </div>

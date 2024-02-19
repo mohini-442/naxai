@@ -30,7 +30,7 @@ const Slidersection = () => {
         slidesToScroll: 1,
         autoplay: true,
         pauseonhover: false,
-        pauseonfocus:false,
+        pauseonfocus: false,
         autoplaySpeed: 2000,
         responsive: [
             {
@@ -54,7 +54,20 @@ const Slidersection = () => {
             {
                 breakpoint: 600,
                 settings: {
+                    slidesToShow: 2.1,
+                }
+            },
+            {
+                breakpoint: 500,
+                settings: {
                     slidesToShow: 1.6,
+                }
+            },
+            {
+                breakpoint: 400,
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: true,
                 }
             },
         ]
@@ -68,11 +81,11 @@ const Slidersection = () => {
 
     return (
         <>
-            <div className='md:py-44 py-24 overflow-hidden' data-aos="fade-up"
+            <div className='md:py-32 lg:py-44 py-18 mb-14 md:mb-0 overflow-hidden' data-aos="fade-up"
                 data-aos-duration="3000">
                 <div className='px-3'>
-                    <h2 className='ff-recharge text-[32px] md:text-[40px] font-bold text-[#02CDCF] text-center leading-[36px] md:leading-[50px]'>NexAi does all this. And more.</h2>
-                    <p className='font-poppins text-[16px] font-normal text-[#B4B4B4] max-w-[912px] mx-auto text-center pt-2'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
+                    <h2 className='ff-recharge text-[30px] md:text-[40px] font-bold text-[#02CDCF] text-center leading-[36px] md:leading-[50px]'>NexAi does all this. And more.</h2>
+                    <p className='font-poppins text-[14px] md:text-[16px] font-normal text-[#B4B4B4] max-w-[912px] mx-auto text-center pt-2'>Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.</p>
                 </div>
                 <Slider {...settings}>
                     {list}
