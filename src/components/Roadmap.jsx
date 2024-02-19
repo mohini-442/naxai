@@ -5,7 +5,7 @@ import frame2 from '../assets/images/frame2.png'
 const Roadmap = () => {
     return (
         <>
-            <div className='relative z-[2] overflow-hidden' id='#roadmap'>
+            <div className='relative z-[2] overflow-hidden' id='roadmap'>
                 <div className='py-20 max-w-[1320px] mx-auto px-3' data-aos="fade-up"
                     data-aos-duration="3000">
                     <h2 className='ff-recharge font-bold text-[30px] md:text-[40px] text-[#02CDCF] text-center leading-[36px] md:leading-[50px]'>NexAI Token & utility</h2>
@@ -78,7 +78,7 @@ const Roadmap = () => {
                     </div>
                 </div>
                 <div className='w-[228px] h-[128px] bg-[#02CDCF] blur-[144px] absolute top-[22%] left-[-12%] hidden md:block'></div>
-                <img src={frame2} alt="frame2" className='absolute top-[2%] right-0 z-[-1] opacity-[20%] hidden md:block' />
+                <img src={frame2} alt="frame2" className='absolute top-[2%] right-0  opacity-[20%] hidden md:block z-[-1] ' />
                 <div className='w-[228px] h-[228px] bg-[#02CDCF] blur-[144px] absolute top-[44%] right-[-12%] z-[-1] hidden md:block'></div>
             </div>
         </>
