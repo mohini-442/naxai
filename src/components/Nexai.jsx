@@ -5,10 +5,10 @@ import ai from '../assets/images/ai.png'
 const Nexai = () => {
     return (
         <>
-            <div className='bg-[url(./assets/images/Frame3.png)] bg-center bg-cover xl:bg-size bg-no-repeat border border-white rounded-[24px] max-w-[1320px] lg:mx-auto pt-12 pb-20 px-[12px] lg:p-[163px_119px_124px_100px] m-[12px] relative z-[2]' data-aos="fade-up"
+            <div className='bg-[url(./assets/images/Frame3.png)] bg-center bg-cover xl:bg-size bg-no-repeat border border-white rounded-[24px] max-w-[1320px] lg:mx-auto pt-4 pb-16 object-cover px-[12px] lg:p-[163px_119px_124px_100px] m-[12px] relative z-[2]' data-aos="fade-up"
      data-aos-duration="3000" id='nexai'>
                 <div className='flex lg:flex-row flex-wrap -mx-3 flex-col-reverse '>
-                    <div className='lg:w-6/12 px-3 flex items-center lg:items-start flex-col pt-5 lg:pt-0'>
+                    <div className='lg:w-6/12 px-3 flex items-center lg:items-start flex-col pt-2 lg:pt-0'>
                         <h2 className=' text-[30px] md:text-[40px] font-bold ff-recharge text-[#02CDCF]'>What is NexAi?</h2>
                         <p className='font-poppins font-normal text-[14px] md:text-[16px] text-[#B7B8BA] text-center lg:text-start pt-4'>Beyond its convenience, Nexai revolutionizes the way you interact with your home environment. It enhances productivity, efficiency, and overall well-being. From managing your schedules to transforming the way you experience smart living, Nexai opens up a world of possibilities.</p>
                         <p className='font-poppins font-normal text-[14px] md:text-[16px] text-[#B7B8BA]  text-center lg:text-start  pt-3'>Nexai's software can be installed on all your smart devices, including smartphones, computers, smart TVs, and kitchen appliances. It acts as a centralized control hub, allowing you to manage and interact with all your devices seamlessly. Whether it's adjusting the temperature, turning on appliances, or even accessing files on your home computer from anywhere, Nexai empowers you with effortless control.</p>

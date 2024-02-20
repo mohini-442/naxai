@@ -42,9 +42,10 @@
 }
 
 
+
 .Blockchain .slick-list {
-  overflow: visible;
-  position: relative;
+  overflow: visible !important;
+  position: relative !important;
   z-index: 1;
 }
 
@@ -58,6 +59,19 @@
   right: 84.6%;
   z-index: 1;
   background-color: #040404;
+}
+.slick-slide>div {
+  display: flex;
+  width: 100%;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
 }
 
 
