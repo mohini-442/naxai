@@ -13,7 +13,7 @@ function Myheader() {
     return (
         <>
             <div className='mt-1 relative min-h-screen lg:px-12'>
-                <div className='bg-[url(./assets/images/bgheader.png)] flex flex-col bg-center bg-no-repeat max-lg:bg-cover lg:bg-bgSize md:mt-3 bg-black min-h-[94vh] z-10'>
+                <div className='bg-[url(./assets/images/bgheader.png)] flex flex-col bg-center bg-no-repeat max-lg:bg-cover lg:bg-bgSize md:mt-3 bg-black min-h-[92vh] z-10'>
                     <nav className=" px-3 pt-3 flex items-center justify-between pr-24">
                         <div></div>
                         <div className="flex items-center gap-28 ">
