@@ -18,7 +18,7 @@ function Myheader() {
                         <div className='hidden lg:block'></div>
                         <ul
                             className={`${nav ? "left-[-100%]" : "left-0"}
-            max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:z-[7] bg-black max-lg:transition-all max-lg:ease-linear max-lg:duration-300 max-lg:min-h-screen max-lg:flex-col max-lg:justify-center flex gap-10 items-center`}
+            max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:z-[7] lg:ml-80 bg-black max-lg:transition-all max-lg:ease-linear max-lg:duration-300 max-lg:min-h-screen max-lg:flex-col max-lg:justify-center flex gap-10 items-center`}
                         >
                             <li onClick={() => setNav(!nav)}><a href="#home"
                                 className="text-white relative after:absolute after:w-0 after:h-[1px] hover:after:absolute after:bottom-[-5px] hover:after:w-full hover:text-[#02CDCF] after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF] font-poppins font-normal text-[16px]" >Home
