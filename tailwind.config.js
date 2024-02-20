@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': 'poppins',
-      }
+      },
+      backgroundSize: {
+        "bgSize":"100% 100%"
+      },
     },
   },
   plugins: [],

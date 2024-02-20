@@ -5,7 +5,7 @@ import ai from '../assets/images/ai.png'
 const Nexai = () => {
     return (
         <>
-            <div className='bg-[url(./assets/images/Frame3.png)] bg-center bg-size bg-no-repeat border border-white rounded-[24px] max-w-[1320px] lg:mx-auto pt-12 pb-20 px-[12px] lg:p-[163px_119px_124px_100px] m-[12px] relative z-[2]' data-aos="fade-up"
+            <div className='bg-[url(./assets/images/Frame3.png)] bg-center bg-cover xl:bg-size bg-no-repeat border border-white rounded-[24px] max-w-[1320px] lg:mx-auto pt-12 pb-20 px-[12px] lg:p-[163px_119px_124px_100px] m-[12px] relative z-[2]' data-aos="fade-up"
      data-aos-duration="3000" id='nexai'>
                 <div className='flex lg:flex-row flex-wrap -mx-3 flex-col-reverse '>
                     <div className='lg:w-6/12 px-3 flex items-center lg:items-start flex-col pt-5 lg:pt-0'>
@@ -15,7 +15,7 @@ const Nexai = () => {
                         <Button name='md:!mt-9 mt-5' btn='Learn More' />
                     </div>
                     <div className='lg:w-6/12 mx-auto px-3 relative z-[2] flex justify-center items-center mix-blend-hue'>
-                        <img src={ai} alt="ai" className='w-[70%] mix-blend-lighten ' />
+                        <img src={ai} alt="ai" className='w-[90%] mix-blend-lighten ' />
                         <div className='md:w-[468px] w-[267px] h-[267px] md:h-[463px] bg-[#02CDCF] blur-[294px] absolute top-[2%] right-[-8%] z-[-1]'></div>
                     </div>
                 </div>
