@@ -29,13 +29,13 @@ const Secondslider = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 2000,
         slidesToShow: 4,
         slidesToScroll: -1,
         autoplay: true,
         pauseonhover: false,
         pauseonfocus: false,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 0,
         speed: 500,
         responsive: [
             {
