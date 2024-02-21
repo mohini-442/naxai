@@ -77,9 +77,9 @@ const Roadmap = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[228px] h-[128px] bg-[#02CDCF] blur-[144px] absolute top-[22%] left-[-12%] hidden lg:block'></div>
+                <div className='w-[228px] h-[128px] bg-[#02CDCF] blur-[144px] absolute top-[34%] left-[-12%] hidden lg:block'></div>
                 <img src={frame2} alt="frame2" className='absolute top-[2%] right-0  opacity-[20%] hidden md:block z-[-1] ' />
-                <div className='w-[228px] h-[228px] bg-[#02CDCF] blur-[144px] absolute top-[44%] right-[-12%] z-[-1] hidden lg:block'></div>
+                <div className='w-[228px] h-[228px] bg-[#02CDCF] blur-[144px] absolute top-[44%] right-[-12%] hidden lg:block'></div>
             </div>
         </>
     )

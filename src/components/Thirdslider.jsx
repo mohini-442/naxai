@@ -78,8 +78,8 @@ const Thirdslider = () => {
     };
 
     const list = slidercard2.map((slidercard2) => (
-        <div className='rounded-[16px] max-w-[240px] hover:shadow-none hover:scale-[1.06] duration-[0.5s] md:max-w-[340px] h-[190px] md:h-[220px] bg-[#090909] shadow-[0px_4px_20px_0px_#02CDCF29] !flex items-center justify-center flex-col mt-5 mb-5 px-[33px]'>
-            <h3 className='text-[20px] ff-recharge text-white font-bold text-center'>{slidercard2.paragraph}</h3>
+        <div className='rounded-[16px] max-w-[240px] group mx-2 duration-[0.5s] md:max-w-[340px] h-[190px] md:h-[220px] bg-[#090909] shadow-[0px_4px_20px_0px_#02CDCF29] !flex items-center justify-center flex-col mt-5 mb-5 px-[33px]'>
+            <h3 className='text-[20px] ff-recharge text-white font-bold duration-[0.5s] group-hover:text-[#02CDCF] text-center'>{slidercard2.paragraph}</h3>
         </div>
     ));
 

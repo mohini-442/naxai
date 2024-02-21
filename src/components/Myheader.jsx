@@ -12,10 +12,10 @@ function Myheader() {
     }
     return (
         <>
-            <div className='mt-1 relative min-h-screen xl:px-12'>
-                <div className='bg-[url(./assets/images/bgheader.png)] flex flex-col bg-center bg-no-repeat bg-cover xl:bg-bgSize md:mt-3 bg-black min-h-[92vh] z-10'>
+            <div className='mt-1 relative min-h-[84vh] md:min-h-screen xl:px-12'>
+                <div className='bg-[url(./assets/images/bgheader.png)] flex flex-col bg-right md:bg-center bg-no-repeat bg-cover xl:bg-bgSize md:mt-3 bg-black min-h-[80vh] md:min-h-[94vh] z-10'>
                     <nav className=" px-3 pt-3 flex items-center gap-28 justify-between lg:pr-24">
-                        <div className='hidden lg:block'></div>
+                        <div className='hidden xl:block'></div>
                         <ul
                             className={`${nav ? "left-[-100%]" : "left-0"}
             max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:z-[7] lg:ml-80 bg-black max-lg:transition-all max-lg:ease-linear max-lg:duration-300 max-lg:min-h-screen max-lg:flex-col max-lg:justify-center flex gap-10 items-center`}
@@ -50,7 +50,7 @@ function Myheader() {
                                 </a>
                             </li>
                         </ul>
-                        <Button name='lg:!ml-12 !mt-6 lg:!mt-0' btn='Sign up' />
+                        <Button name='xl:!ml-12 !mt-6 lg:!mt-0 !text-nowrap' btn='Sign up' />
                         <div
                             onClick={() => setNav(!nav)}
                             className="lg:hidden w-[27px] h-[21px] mr-[17px] relative z-[7] flex justify-between flex-col mt-8"
@@ -72,7 +72,7 @@ function Myheader() {
                     <div className='max-w-[1240px] px-3 flex flex-grow items-center justify-center'>
                         <div className='flex flex-wrap flex-row -mx-3'>
                             <div className='lg:w-7/12 px-3 pl-4 lg:pl-[120px]'>
-                                <h2 className='ff-recharge font-normal text-[40px] md:text-[60px] text-white leading-[48px] md:leading-[75px] pt-3'> <span className='font-bold text-[#02CDCF]'>Nexai</span> is an advanced AI-powered home assistant</h2>
+                                <h2 className='ff-recharge font-normal text-[40px] md:text-[60px] text-white leading-[48px] md:leading-[75px]'> <span className='font-bold text-[#02CDCF]'>Nexai</span> is an advanced AI-powered home assistant</h2>
                                 <p className='font-poppins text-base font-normal text-[#B2B8B9] pt-2 pb-3'>Etiam viverra nec libero a. A id id tempus molestie sed. Fringilla odio.</p>
                                 <Button name='mt-6 lg:!mt-12' btn='Know More' />
                             </div>
@@ -80,8 +80,8 @@ function Myheader() {
                     </div>
                 </div>
                 <img src={shadow} alt="shadow" className='absolute bottom-0 left-0 w-full' />
-                <div className=' w-[262px] h-[262px] bg-[#02CDCF] blur-[194px] absolute top-[26%] right-[12%]'></div>
-                <div className=' w-[262px] h-[262px] bg-[#02CDCF] blur-[194px] absolute top-[26%] left-[0%] opacity-[30%]'></div>
+                <div className=' w-[262px] h-[262px] bg-[#02CDCF] blur-[194px] absolute top-[26%] right-[12%] hidden lg:block'></div>
+                <div className=' w-[262px] h-[262px] bg-[#02CDCF] blur-[194px] absolute top-[26%] left-[0%] opacity-[30%] hidden lg:block'></div>
             </div>
         </>
     )

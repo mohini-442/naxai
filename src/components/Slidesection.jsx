@@ -74,8 +74,8 @@ const Slidersection = () => {
     };
 
     const list = slidercards.map((slidercards) => (
-        <div className='rounded-[16px] w-full max-w-[240px] hover:shadow-none hover:scale-[1.06] duration-[0.5s] md:max-w-[340px] h-[190px] md:h-[220px] bg-[#090909] shadow-[0px_4px_20px_0px_#02CDCF29] !flex items-center justify-center flex-col mt-20 mb-5 px-[33px]'>
-            <h3 className='text-[20px] ff-recharge text-white font-bold text-center'>{slidercards.paragraph}</h3>
+        <div className='rounded-[16px] w-full max-w-[240px] mx-2 group duration-[0.5s] md:max-w-[340px] h-[190px] md:h-[220px] bg-[#090909] shadow-[0px_4px_20px_0px_#02CDCF29] !flex items-center justify-center flex-col mt-20 mb-5 px-[33px]'>
+            <h3 className='text-[20px] ff-recharge text-white font-bold duration-[0.5s] group-hover:text-[#02CDCF] text-center'>{slidercards.paragraph}</h3>
         </div>
     ));
 

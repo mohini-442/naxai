@@ -67,7 +67,7 @@ const Blockchain = () => {
 
     const list = slidercard.map((slidercard, i) => (
 
-        <div className={`bg-[url(./assets/images/boxbg.png)] max-w-[367px] h-[367px] mt-14 md:mt-22 lg:mt-44 bg-center bg-no-repeat hover:scale-[1.06] duration-[0.5s] bg-size !flex items-center pt-[74px] flex-col px-[77px] ${slidercard.botm} key{i}`}>
+        <div className={`bg-[url(./assets/images/boxbg.png)] object-cover max-w-[367px] h-[367px] mt-14 md:mt-22 lg:mt-44 bg-center bg-no-repeat hover:scale-[1.06] duration-[0.5s] bg-size !flex items-center pt-[74px] flex-col px-[77px] ${slidercard.botm} key{i}`}>
             <div className='w-[58px] h-[58px] bg-black rounded-[50%] shadow-[0px_4px_16px_0px_#02CDCF99_inset]  flex items-center justify-center '>
                 <p className='text-[32px] ff-recharge font-bold text-white'>{slidercard.heading}</p>
             </div>
@@ -89,8 +89,8 @@ const Blockchain = () => {
                         {list}
                     </Slider>
                 </div>
-                <div className='w-[302px] h-[262px] bg-[#02CDCF] blur-[194px] absolute top-[22%] left-[-18%] z-[2] hidden md:block'></div>
-                <div className='w-[228px] h-[228px] bg-[#02CDCF] blur-[174px] absolute top-[22%] right-[-12%] z-[-1] hidden md:block'></div>
+                <div className='w-[302px] h-[262px] bg-[#02CDCF] blur-[194px] absolute top-[48%] left-[-18%] z-[2] hidden lg:block'></div>
+                <div className='w-[228px] h-[228px] bg-[#02CDCF] blur-[174px] absolute top-[22%] right-[-12%] z-[-1] hidden lg:block'></div>
                 <img src={frame2} alt="frame2" className='absolute top-[12%] right-0 z-[-1] opacity-[20%] hidden lg:block' />
                 <img src={frame4} alt="frame2" className='absolute bottom-[0%] left-0 z-[2] opacity-[70%] hidden lg:block' />
             </div>
