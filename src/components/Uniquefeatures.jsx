@@ -9,7 +9,7 @@ const Uniquefeatures = () => {
                         data-aos-duration="3000">Unique features</h2>
                     <p className='font-poppins font-normal text-[14px] md:text-[16px] text-[#B7B7B7] text-center pt-2 max-w-[397px] mx-auto pb-6' data-aos="fade-up"
                         data-aos-duration="3000">ability to engage in natural, fluent conversations in over 15 languages,</p>
-                    <div className='h-[620px] overflow-y-scroll '>
+                    <div className='h-[620px] overflow-y-scroll overflow-x-hidden'>
                         <div className='flex flex-wrap flex-row -mx-3 mb-14'>
                             <div className='lg:w-1/2 w-full px-3' data-aos="fade-up">
                                 <div className='max-w-[364px] h-[326px] md:h-[380px] bg-white hover:scale-[1.02] duration-[0.5s] mx-2 p-[26px_18px_18px] md:p-[30px_24px_44px_24px] rounded-[16px] mt-8 md:mt-20 border border-[#FCFCFC] shadow-[1px 1px 24px 1px #0000001A]'>
