@@ -12,11 +12,11 @@ function Myheader() {
     return (
         <>
             <div className='mt-1 relative min-h-[84vh] md:min-h-screen xl:px-12'>
-                <div className='bg-[url(./assets/images/bgheader.png)] flex flex-col bg-right md:bg-center bg-no-repeat bg-cover xl:bg-bgSize md:mt-3 bg-black min-h-[80vh] md:min-h-[94vh] z-10'>
+                <div className='bg-[url(./assets/images/bgheader.png)] flex flex-col bg-right lg:bg-center bg-no-repeat bg-cover xl:bg-bgSize md:mt-3 bg-black min-h-[80vh] md:min-h-[94vh] z-10'>
                     <nav className=" px-3 pt-3 flex items-center gap-28 justify-between lg:pr-24">
                         <div className='hidden xl:block'></div>
                         <ul
-                            className={`flex items-center gap-5 mobileView lg:pl-44 ${show ? "right-[-100%]" : "right-0"}`} >
+                            className={`flex items-center gap-5 mobileView lg:pl-64 ${show ? "right-[-100%]" : "right-0"}`} >
                             <li onClick={nav}><a href="#home"
                                 className="text-white relative after:absolute after:w-0 after:h-[1px] hover:after:absolute after:bottom-[-5px] hover:after:w-full hover:text-[#02CDCF] after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#02CDCF] font-poppins font-normal text-[16px]" >Home
                             </a>

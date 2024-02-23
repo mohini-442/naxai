@@ -4,7 +4,7 @@ const Uniquefeatures = () => {
     return (
         <>
             <div className='overflow-hidden'>
-                <div className='bg-[url(./assets/images/world.png)] rounded-[16px] sm:rounded-[32px] bg-no-repeat bg-cover md:bg-size bg-center max-w-[1340px] object-cover border border-white lg:mt-12  m-[12px] lg:mx-auto p-[24px] lg:p-[80px_120px_0px_100px] h-[650px] md:h-[830px]  relative z-[2] overflow-hidden'>
+                <div className='bg-[url(./assets/images/un.webp)] rounded-[16px] sm:rounded-[32px] bg-no-repeat bg-cover md:bg-size bg-center max-w-[1340px] object-cover border border-white lg:mt-12  m-[12px] lg:mx-auto p-[24px] lg:p-[80px_120px_0px_100px] h-[650px] md:h-[830px]  relative z-[2] overflow-hidden'>
                     <h2 className='ff-recharge text-[30px] md:text-[40px] font-bold text-[#FCFCFC] text-center' data-aos="fade-up"
                         data-aos-duration="3000">Unique features</h2>
                     <p className='font-poppins font-normal text-[14px] md:text-[16px] text-[#B7B7B7] text-center pt-2 max-w-[397px] mx-auto pb-6' data-aos="fade-up"
@@ -49,8 +49,8 @@ const Uniquefeatures = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[262px] h-[262px] bg-[#02CDCF] blur-[194px] absolute top-[22%] right-[-17%] z-[-1] hidden md:block'></div>
-                    <div className='w-[262px] h-[262px] bg-[#02CDCF] blur-[194px] absolute bottom-[-5%] left-[-17%] rounded-[80px] z-[-1] hidden md:block'></div>
+                    <div className='w-[262px] h-[262px] bg-[#02CDCF] blur-[194px] absolute top-[0%] right-[-7%] z-[-1] hidden md:block'></div>
+                    <div className='w-[262px] h-[262px] bg-[#02CDCF] blur-[194px] absolute bottom-[-5%] left-[-7%] rounded-[80px] z-[-1] hidden md:block'></div>
                 </div>
             </div>
         </>

@@ -37,6 +37,8 @@ const Blockchain = () => {
         autoplaySpeed: 0,
         speed: 2000,
         arrows: false,
+        pauseonHover: false,
+        pauseonFocus: false,
         responsive: [
             {
                 breakpoint: 1024,
