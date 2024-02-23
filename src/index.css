@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.mobileView {
-  @apply max-lg:bg-[#00141b] z-20 max-lg:gap-5 max-lg:fixed max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:w-full max-lg:h-full duration-500
+
+@layer components {
+  .mobileView {
+    @apply max-lg:bg-[black] z-20 max-lg:gap-5 max-lg:fixed max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:w-full max-lg:h-full duration-500
+  }
 }
 
-.animate-spins{
+
+.animate-spins {
   animation: spin 3600ms linear infinite;
 }
+
 @keyframes spin {
   from {
     transform: rotate(0deg);

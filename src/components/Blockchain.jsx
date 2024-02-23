@@ -92,7 +92,7 @@ const Blockchain = () => {
                 <div className='w-[302px] h-[262px] bg-[#02CDCF] blur-[194px] absolute top-[48%] left-[-18%] z-[2] hidden lg:block'></div>
                 <div className='w-[228px] h-[228px] bg-[#02CDCF] blur-[174px] absolute top-[22%] right-[-12%] z-[-1] hidden lg:block'></div>
                 <img src={frame2} alt="frame2" className='absolute top-[12%] right-0 z-[-1] opacity-[20%] hidden lg:block' />
-                <img src={frame4} alt="frame2" className='absolute bottom-[0%] left-0 z-[2] opacity-[70%] hidden lg:block' />
+                <img src={frame4} alt="frame4" className='absolute bottom-[0%] left-0 z-[2] opacity-[70%] hidden lg:block' />
             </div>
         </>
     )
